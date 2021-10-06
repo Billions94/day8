@@ -48,10 +48,10 @@ const MovieDetails = ({ match }) => {
               <img src={movies.Poster} alt="" />
               <div className="card-body">
                 <h4 className="card-text text-dark">{movies.Title}</h4>
-                <h4 className="card-text text-dark">{movies.Year}</h4>
-                <h4 className="card-text text-dark">{movies.Rated}</h4>
-                <h4 className="card-text text-dark">{movies.Released}</h4>
-                <h4 className="card-text text-dark">{movies.Director}</h4>
+                <h6 className="card-text text-dark text-left"><strong>Year:</strong> {movies.Year}</h6>
+                <h6 className="card-text text-dark text-left"><strong>Rated:</strong> {movies.Rated}</h6>
+                <h6 className="card-text text-dark text-left"><strong>Released:</strong> {movies.Released}</h6>
+                <h6 className="card-text text-dark text-left"><strong>Director:</strong> {movies.Director}</h6>
               </div>
             </div>
           </div>
@@ -60,5 +60,7 @@ const MovieDetails = ({ match }) => {
     </>
   );
 };
+
+
 
 export default MovieDetails;
