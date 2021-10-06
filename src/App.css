@@ -1,3 +1,345 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(20, 20, 20);
+  color: white;
+
+}
+
+.customnav {
+  background-color: rgb(22, 21, 21);
+}
+
+.navbar {
+  padding-right: 50px;
+  padding-left: 0;
+}
+
+.bg-black {
+  background-color: transparent;
+}
+.tv-shows {
+  padding-left: 18px;;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 38px;
+}
+
+.xplore {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size:11px;
+  opacity: 0;
+}
+
+.footer {
+  max-width: 980px;
+  margin-left: 100px;
+  /* padding: 0 4%; */
+  color: grey;
+}
+
+.nav-link {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.border {
+  border: 1px solid white;
+  height: 30px;
+}
+
+.borderbtn {
+  margin-top: -6.5px;
+}
+
+.navbar-light {
+  color: white;
+}
+
+.account {
+  height: 10vh;
+  border-bottom: 1px solid gray;
+}
+
+.membership {
+  color: grey;
+  
+}
+
+.btn-gray {
+  background-color: #dadad4;
+  border: transparent;
+  border-radius: 0;
+}
+
+.membershipbody{
+  height: 10vh;
+  color: black;
+  
+}
+
+#password {
+  color: gray;
+}
+
+.myprofile {
+  border-top: 1px solid grey;
+  
+}
+
+.changeplan {
+  /* border-top: 1px solid grey; */
+  border-bottom: 1px solid grey;
+
+}
+
+.logo {
+  cursor: pointer;
+  margin-top: 5px;
+  padding-top: 7px;
+  height: 25px;
+  width: 20px;
+}
+
+.logo:focus .navSearch {
+  opacity: 0 !important;
+}
+
+.navSearch {
+  opacity: 1;
+  width: 250px !important;
+  height: 36px !important;
+  border-radius: 0 !important;
+  background-color: rgba(0, 0, 0, 0.664)
+}
+
+.navSearch:focus {
+  background-color: rgba(0, 0, 0, 0.664);
+  border-color: white;
+ 
+  
+}
+
+.span {
+  color: gray;
+}
+
+#dropdown-menu {
+  background-color: black;
+}
+
+.text-align {
+  text-align: right;
+}
+
+.textdown {
+  text-align: bottom;
+  padding-top: 20px;
+}
+
+.textdown1 {
+  padding-top: 60px;
+}
+
+.account1 {
+  border-bottom: 1px solid grey;
+}
+
+
+hr {
+  width: 738px; margin-right:10%;
+  color: grey;
+}
+
+.foot {
+  max-width: 100px;
+  position: relative;
+}
+
+.strive {
+  padding-left: 20px;
+}
+
+h6 {
+  cursor: pointer;
+}
+
+h4 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  font-size: 18px;
+}
+
+.service-code {
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 0;
+  margin-right: 859px;
+  font-weight: 400;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+  font-size: 13px;
+  padding: .5em;
+}
+
+.serv {
+  font-weight: 400;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+}
+
+.dope {
+  width: 100%;
+}
+
+a {
+  margin:0 auto;    
+  display:block;
+  
+}
+
+.dropdown-menu {
+  color: white;
+  width: 100px;
+  /* display: none; */
+  /* padding: 50px; */
+  background: black;
+  z-index:100;
+  position:absolute;
+}
+
+.dropdown-divider {
+  background: black;
+  color: black;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.pl-5 {
+  color: white;
+}
+
+.genreDiv {
+  background-color: black !important;
+  border: 1px solid white;
+  width: 109.13px;
+  height: 24.66px;
+}
+
+.header {
+  /* padding-left: 52px; */
+  padding-right: 60px;
+}
+
+.arrow-right {
+  opacity: 0;
+}
+a.nav-link {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  color: #b3b3b3 !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+
+}
+
+h4 {
+  cursor: pointer;
+}
+
+h4:hover .arrow-right  {
+  opacity: 1;
+  cursor: pointer;
+}
+
+h4:hover .xplore {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.app-container {
+  padding-left: 52px;
+  /* padding-right: 52px; */
+}
+
+.genrebtn {
+  margin-top: -8px;
+}
+
+.form{
+  opacity: 0;
+}
+
+.form:hover {
+  opacity: 1;
+}
+
+/* .design {
+  object-fit: cover;
+} */
+
+.movie {
+  padding: 0;
+  width: 240px;
+  height: 135px;
+}
+
+.colxx {
+  padding: 0;
+  width: 240px;
+  height: 135px;
+
+}
+
+
+
+.cardx {
+  padding:0;
+  border: none;
+  width: 240px;
+  height: 135px;
+  overflow: hidden;
+}
+
+#action {
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+#horror {
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#comedy {
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#action::-webkit-scrollbar {
+  display: none;
+}
+
+#horror::-webkit-scrollbar {
+  display: none;
+}
+
+#comedy::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 .App {
   text-align: center;
 }
